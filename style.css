@@ -1,0 +1,112 @@
+#submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37fa65;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: montserrat;
+color: white;
+background-image: linear-gradient( 
+115deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+height: 100vh;
+}
+
+#survey-form{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+border-radius: 8px;
+max-width: 800px;
+background-color: black;
+}
+
+#survey-form .form-content{
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+margin-left: 50px;
+justify-content: center;
+margin-bottom: 80px;
+}
+
+#survey-form input {
+width: 100%;
+padding: 10px;
+margin: 10px 0px;
+}
+
+#survey-form select {
+width: 100%;
+padding: 10px;
+margin: 10px 0px;
+color: black;
+}
+#label{
+display: flex;
+align-items: center;
+font-size: 1.125rem;
+margin-bottom: 0.5rem;
+}
+
+
+#name-label{
+display: block;
+color: white;
+}
+#email-label{
+display: block;
+color: white;
+}
+#age-label{
+display: block;
+color: white;
+}
+#dropdown-label{
+display: block;
+color: white;
+}
+#dropdown{
+display: block;
+color: white;
+}
+#radio-label{
+display: block;
+color: white;
+}
+#multiselect-label{
+display: block;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+}
+
+textarea{
+width: 100%;
+margin: 10px 0px;
+padding: 10px 2px;
+}
+
+
+h1{
+color: white;
+width:400px;
+top: 50%;
+left: 50%;
+padding: 0 460px;
+}
+p{
+color: white;
+width:400px;
+top: 50%;
+left: 50%;
+padding: 0 460px;
+}
